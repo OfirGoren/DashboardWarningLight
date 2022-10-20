@@ -7,6 +7,8 @@
 DashboardWarningLightsApp is designed to provide a solution for the driver in diagnosing his car's faults and providing an initial response. The control panel of the vehicle will also be in the application on the driver's smartphone - the same copy. When the malfunction occurs, the driver will click on the malfunction symbol that lights up on the vehicle control in the application and will receive an explanation - textual and voice, about the malfunction, what it is and what he must do, whether he can continue driving or must go to a nearby garage.
 If he needs to go to the garage, the app will show garages near the driver's location and if the fault is serious and the driver can't continue driving, you can order a tow truck (done through a second app I developed)
 
+<img src="https://media.giphy.com/media/zzICAyU58U99jQBiS2/giphy.gif" alt="drawing" width="220" hspace="10"/> 
+
 
 ## Highlight features:
 

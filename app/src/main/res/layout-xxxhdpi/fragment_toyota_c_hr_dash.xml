@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_IMG_Check_Engine"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/check_engine_light"
+        android:tag="check_engine_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_BrakeElectric"
+        android:layout_width="23dp"
+        android:layout_height="30dp"
+        android:src="@drawable/brake_electric"
+        android:tag="brake_electric"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Fuel"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:src="@drawable/fuel_warning_light"
+
+        android:tag="fuel_warning_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Hold"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/hold"
+
+        android:tag="hold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Hold2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/hold2"
+        android:tag="hold2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Cruise"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cruise"
+        android:tag="cruise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Speed"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/speed"
+        android:tag="speed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Current"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:src="@drawable/current"
+        android:tag="current"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Temp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/temp"
+        android:tag="temp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Set"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:src="@drawable/set"
+        android:tag="set"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Lda"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/lda"
+        android:tag="lda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Sport"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/sport"
+        android:tag="sport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Eco"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/eco"
+        android:tag="eco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Gas_Side"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/gas_side"
+        android:tag="gas_side"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_ParkingBrake"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/park"
+        android:tag="park"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_High_Beam"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/high_beam"
+        android:tag="high_beam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Brake_Usa"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:src="@drawable/brake_usa"
+        android:tag="brake_usa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Bsm_Off"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/bsm_off"
+        android:tag="bsm_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_HeadLight"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/headlight"
+        android:tag="headlight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_AutoHighBeam"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/auto_high_beam"
+        android:tag="auto_high_beam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Srs"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/srs_warning_light"
+        android:tag="srs_warning_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_FogLight"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/fog_light"
+        android:tag="fog_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Steering"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/electric_steering"
+        android:tag="electric_steering"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Rcta"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/rcta_off"
+        android:tag="rcta_off"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_High_Coolant"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/high_coolant"
+        android:tag="high_coolant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Seatbelt"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/seat_belt_reminder_warning_light"
+        android:tag="seat_belt_reminder_warning_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Abs"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/abs"
+        android:tag="abs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Pcs"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/precrash"
+        android:tag="precrash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Vsc"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/vsc_off"
+        android:tag="vsc_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_Slip"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/slip"
+        android:tag="slip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/toyota_Chr_TirePressure"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/tire_pressure"
+        android:tag="tire_pressure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/toyota_Chr_T_Bottom_Sheet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/keyboard_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

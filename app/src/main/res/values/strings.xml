@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">DashboardWarningLightsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">sign up</string>
+    <string name="identifying_and_handling_vehicle_malfunctions">Identifying \nAnd Handling\nVehicle Malfunctions</string>
+    <string name="discover_the_problem_with_your_car">Discover \nThe Problem\nWith Your Car</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="toyota">Toyota</string>
+    <string name="google_places_key">AIzaSyAWB2zblKDMpnm7PGf7T5fp1Yb8Pq8zYJo</string>
+    <string name="require_name">An Name is required</string>
+    <string name="email_required">An email is required</string>
+    <string name="password_required">An Password is required</string>
+    <string name="password_required_digits">"Must have at least a \n6-character password"</string>
+    <string name="company_required">An company is required\n Choose From List</string>
+    <string name="model_required">An model is required\n Choose From List</string>
+    <string name="facebook_app_id">495475968909805</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="or_log_in_with">Or Log In With:</string>
+    <string name="log_in">Log In</string>
+    <string name="log_is_failed_try_again">Log Is Failed Try Again</string>
+    <string name="google_auth_id_token">354750506632-212ar0uu58h57lvgl7i5ivj4tpbv18lq.apps.googleusercontent.com</string>
+    <string name="msgAgreeYourLocation">"To see the nearest garages you must confirm to arrive at your place."</string>
+    <string name="msgAgreeLocation">You Must to approve your location for find for you towing.</string>
+    <string name="msgAgreeMoveToSetting">"Switch to settings to confirm your location?"</string>
+
+    <string name="instruction">Instruction:</string>
+    <string name="information">Information:</string>
+    <string name="needToVerify">You Need To Verify The Email</string>
+    <string name="emailAlreadyRegisteredWithGoogle">"The system has detected that this email was previously registered through a Google account. Therefore, in order to additionally register through the Email account, you must first log in to the Google account through which you have previously registered.\n"
+                          "to do so press continue, or press cancel to go back."</string>
+    <string name="UserAlreadyLinked">User has already been linked to the given provider</string>
+    <string name="UserAlreadySignUpWithThisEmail">User has already been exist</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="nearby_n_garages">Garages</string>
+    <string name="profile">Profile</string>
+    <string name="towing">Towing</string>
+    <string name="invite">Invite Towing</string>
+
+    <string-array name="car_companies">
+        <item>Toyota</item>
+    </string-array>
+
+    <string-array name="car_models">
+        <item>C_HR</item>
+    </string-array>
+
+</resources>

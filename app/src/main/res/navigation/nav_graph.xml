@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toyota_c_hr_dash_fragment2">
+    <fragment
+        android:id="@+id/toyota_c_hr_dash_fragment2"
+        android:name="com.example.dashboardwarninglightsapp.fragments.ToyotaCHrDashFragment"
+        android:label="Toyota_c_hr_dash_fragment" >
+        <action
+
+            android:id="@+id/action_toyota_c_hr_dash_fragment2_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_toyota_c_hr_dash_fragment2_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_toyota_c_hr_dash_fragment2_to_inviteTowingFragment"
+            app:destination="@id/inviteTowingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.dashboardwarninglightsapp.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.dashboardwarninglightsapp.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/inviteTowingFragment"
+        android:name="com.example.dashboardwarninglightsapp.fragments.InviteTowingFragment"
+        android:label="fragment_invite_towing"
+        tools:layout="@layout/fragment_invite_towing" />
+</navigation>

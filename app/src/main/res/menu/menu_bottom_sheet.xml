@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nearby_garages"
+        android:enabled="true"
+        android:icon="@drawable/map"
+        android:title="@string/nearby_n_garages" />
+    <item
+        android:id="@+id/towing"
+        android:enabled="true"
+        android:icon="@drawable/tow"
+        android:title="@string/towing" />
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/person"
+        android:title="@string/profile" />
+
+</menu>

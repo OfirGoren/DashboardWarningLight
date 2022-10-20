@@ -20,7 +20,7 @@ If he needs to go to the garage, the app will show garages near the driver's loc
 
 ## Screenshots:
 #### Customer side:
-<img src="https://user-images.githubusercontent.com/68231208/196907007-519f829f-38d9-4bc1-ab10-5097bfb541a1.jpeg" alt="drawing" width="200" hspace="10"/> <img src="https://user-images.githubusercontent.com/68231208/196908296-fe4371bd-7046-4295-a194-506e75bc62e5.jpeg" alt="drawing" width="200" hspace="10"> <img src="https://user-images.githubusercontent.com/68231208/196913165-17ffcd7e-0fc9-4239-b621-19372bde4573.png" alt="drawing" width="200" hspace="10"> 
+<img src="https://user-images.githubusercontent.com/68231208/196907007-519f829f-38d9-4bc1-ab10-5097bfb541a1.jpeg" alt="drawing" width="200" hspace="10"/> <img src="https://user-images.githubusercontent.com/68231208/196908296-fe4371bd-7046-4295-a194-506e75bc62e5.jpeg" alt="drawing" width="200" hspace="10"> <img src="https://user-images.githubusercontent.com/68231208/196957952-880ea366-cc63-480f-8bcc-d92072b4e1e5.png" alt="drawing" width="200" hspace="10"> 
 <img src="https://user-images.githubusercontent.com/68231208/196915595-343f7d87-1620-40bd-9ca8-7dd685078f36.jpeg" alt="drawing" width="650" hspace="10">
 <img src="https://user-images.githubusercontent.com/68231208/196916953-fdc9fe7e-3012-43f6-9ec5-2f843ddc1804.jpeg" alt="drawing" width="650" hspace="10">
 <img src="https://user-images.githubusercontent.com/68231208/196916481-615a4be2-a920-4d5c-9332-620e74eb485c.jpeg" alt="drawing" width="650" hspace="10"><br/>

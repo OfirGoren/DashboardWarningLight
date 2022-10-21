@@ -14,9 +14,9 @@ If he needs to go to the garage, the app will show garages near the driver's loc
 
 * Authentication with google.
 * Display Nearby Garages radius(10km).
-* Voice reading
-* Order a tow truck (Done by a third party app I developed)
-* Displaying towing location on the map in real time (Tow that confirmed the rescue)
+* Voice reading.
+* Order a tow truck (Done by a third party app I developed).
+* Displaying towing location on the map in real time (tow that confirmed the rescue).
 
 
 
